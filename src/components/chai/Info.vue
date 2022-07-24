@@ -43,7 +43,7 @@
 
   <div class="sm:text-center"> 这将只在640px及更宽的屏幕上居中显示文本，而不是在小屏幕上 </div>
   <div class="text-center color sm:text-left"> 这将使文字在手机上居中，并在640px及更宽的屏幕上左对齐 </div>
-  <div class="bg-green-500 md:bg-red-500 text-white">grenn-red</div>
+  <div class="bg-green-500 mb-20 md:bg-red-500 text-white">grenn-red</div>
 </template>
 
 <script lang="ts" setup></script>
