@@ -1,7 +1,7 @@
 {
   "name": "fast-vue3",
   "version": "0.1.2",
-  "author": "扫地盲僧",
+  "author": "TOPRARE",
   "scripts": {
     "dev": "vite --mode development",
     "build": "vue-tsc --noEmit && vite build",
