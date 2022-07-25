@@ -19,7 +19,7 @@
   import { ref } from 'vue';
   const ethAccount = ref('');
   const ethClick = async () => {
-    const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+    const accounts = await globalThis.ethereum.request({ method: 'eth_requestAccounts' });
     ethAccount.value = accounts[0];
   };
 </script>

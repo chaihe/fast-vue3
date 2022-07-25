@@ -35,5 +35,6 @@
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
     background-color: var(--color-bg-1);
+    min-width: 640px;
   }
 </style>

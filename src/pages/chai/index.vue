@@ -24,7 +24,7 @@
 </script>
 
 <style lang="less" scoped>
-  // .container {
-  //   min-width: 648px;
-  // }
+  .container {
+    min-width: 648px;
+  }
 </style>
