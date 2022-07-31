@@ -101,7 +101,7 @@
 
   const itemClick = (msg) => {
     console.log(msg);
-    ElMessage('MSG -- ' + msg);
+    // ElMessage('MSG -- ' + msg);
   };
 </script>
 

@@ -8,7 +8,17 @@ export {};
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Banner: typeof import('./../src/components/Chai/Banner.vue')['default'];
+    ElButton: typeof import('element-plus/es')['ElButton'];
+    ElContainer: typeof import('element-plus/es')['ElContainer'];
+    ElDatePicker: typeof import('element-plus/es')['ElDatePicker'];
+    ElHeader: typeof import('element-plus/es')['ElHeader'];
+    ElImage: typeof import('element-plus/es')['ElImage'];
     ElInput: typeof import('element-plus/es')['ElInput'];
+    ElMain: typeof import('element-plus/es')['ElMain'];
+    ElPopover: typeof import('element-plus/es')['ElPopover'];
+    ElTable: typeof import('element-plus/es')['ElTable'];
+    ElTableColumn: typeof import('element-plus/es')['ElTableColumn'];
+    ElTag: typeof import('element-plus/es')['ElTag'];
     Footer: typeof import('./../src/components/Footer/index.vue')['default'];
     'Index copy': typeof import('./../src/components/Footer/index copy.vue')['default'];
     Info: typeof import('./../src/components/Chai/Info.vue')['default'];

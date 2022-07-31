@@ -39,6 +39,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
 
     // server
     server: {
+      https: false,
       hmr: { overlay: false }, // 禁用或配置 HMR 连接 设置 server.hmr.overlay 为 false 可以禁用服务器错误遮罩层
       // 服务配置
       port: VITE_PORT, // 类型： number 指定服务器端口;
