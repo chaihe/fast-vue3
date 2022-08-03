@@ -7,7 +7,8 @@ export {};
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Banner: typeof import('./../src/components/Chai/Banner.vue')['default'];
+    Banner: typeof import('./../src/components/chai/Banner.vue')['default'];
+    copy: typeof import('./../src/components/footer/index copy.vue')['default'];
     ElButton: typeof import('element-plus/es')['ElButton'];
     ElContainer: typeof import('element-plus/es')['ElContainer'];
     ElDatePicker: typeof import('element-plus/es')['ElDatePicker'];
@@ -19,10 +20,10 @@ declare module '@vue/runtime-core' {
     ElTable: typeof import('element-plus/es')['ElTable'];
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn'];
     ElTag: typeof import('element-plus/es')['ElTag'];
-    Footer: typeof import('./../src/components/Footer/index.vue')['default'];
-    'Index copy': typeof import('./../src/components/Footer/index copy.vue')['default'];
-    Info: typeof import('./../src/components/Chai/Info.vue')['default'];
-    Product: typeof import('./../src/components/Chai/Product.vue')['default'];
+    Footer: typeof import('./../src/components/footer/index.vue')['default'];
+    'Index copy': typeof import('./../src/components/footer/index copy.vue')['default'];
+    Info: typeof import('./../src/components/chai/Info.vue')['default'];
+    Product: typeof import('./../src/components/chai/Product.vue')['default'];
     RouterLink: typeof import('vue-router')['RouterLink'];
     RouterView: typeof import('vue-router')['RouterView'];
     SvgIcon: typeof import('./../src/components/SvgIcon/index.vue')['default'];

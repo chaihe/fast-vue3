@@ -18,8 +18,9 @@
               ><template #default="scope">
                 <el-popover effect="light" trigger="hover" placement="top" width="auto">
                   <template #default>
-                    <div>name: {{ scope.row.sell_member_info.realname }}</div>
-                    <div>address: {{ scope.row.sell_member_info.phone }}</div>
+                    <div>姓名: {{ scope.row.sell_member_info.realname }}</div>
+                    <div>昵称: {{ scope.row.sell_member_info.nickname }}</div>
+                    <div>手机号: {{ scope.row.sell_member_info.phone }}</div>
                   </template>
                   <template #reference>
                     <el-tag>{{ scope.row.sell_member_info.realname }}</el-tag>
@@ -32,6 +33,7 @@
                 <el-popover effect="light" trigger="hover" placement="top" width="auto">
                   <template #default>
                     <div>姓名: {{ scope.row.buy_memb_info.realname }}</div>
+                    <div>昵称: {{ scope.row.buy_memb_info.nickname }}</div>
                     <div>手机号: {{ scope.row.buy_memb_info.phone }}</div>
                   </template>
                   <template #reference>
